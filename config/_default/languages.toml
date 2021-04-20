@@ -4,3 +4,10 @@
   weight = 2
   languagedir = "ltr"
   contentdir = "content/en"
+
+[zh]
+  title = "I like for you to be still."
+  languageName = "Chinese"
+  weight = 2
+  languagedir = "ltr"
+  contentdir = "content/zh"

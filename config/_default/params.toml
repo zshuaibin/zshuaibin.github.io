@@ -1,7 +1,7 @@
-logoText = "Zzo" # Logo text that appears in the site navigation bar.
+logoText = "Zires" # Logo text that appears in the site navigation bar.
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
 logo = true # Logo that appears in the site navigation bar.
-description = "The Zzo theme for Hugo example site." # for SEO
+description = "ruby/golang/rust/vue/react" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 useFaviconGenerator = false # https://www.favicon-generator.org/
@@ -47,14 +47,14 @@ talksPaginate = 8 # items per page
 talksGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
-bioImageUrl = "" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
+myname = "zshuaibin"
+email = "zshuaibin@gmail.com"
+whoami = "程序员 + 交易员"
+bioImageUrl = "https://nextcloud-1255384104.cos.ap-shanghai.myqcloud.com/avatar.png" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
 useGravatar = false # we use this option highest priority
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://github.com/zzossig/hugo-theme-zzo"
+location = "Shanghai, China"
+organization = "Aukudu"
+link = "https://github.com/zires"
 
 # sidebar
 enableBio = true # in home page sidebar
@@ -139,11 +139,11 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions] # if set, social icons will show up.
-  email = "mailto:your@email.com"
+  email = "mailto:zshuaibin@email.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  facebook = ""
+  twitter = ""
+  github = "https://github.com/zires"
   stack-overflow = ""
   instagram = ""
   google-plus = ""
