@@ -4,3 +4,6 @@
 [submodule "obsidian"]
 	path = obsidian
 	url = git@github.com:zires/obsidian.git
+[submodule "org"]
+	path = org
+	url = git@github.com:zires/org.git
