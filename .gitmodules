@@ -1,9 +1,3 @@
 [submodule "themes/zzo"]
 	path = themes/zzo
 	url = https://github.com/zzossig/hugo-theme-zzo.git
-[submodule "obsidian"]
-	path = obsidian
-	url = git@github.com:zires/obsidian.git
-[submodule "org"]
-	path = org
-	url = git@github.com:zires/org.git
