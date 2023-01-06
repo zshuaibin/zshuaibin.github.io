@@ -4,3 +4,4 @@
 /node_modules
 node_modules/
 /resources
+.hugo_huild.lock
