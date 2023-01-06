@@ -1,5 +1,5 @@
 baseURL = "https://zshuaibin.github.io/" # The URL of your site.
-title = "Zires's homesite" # Title of your site
+title = "I like for you to be still | zshuaibin" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
 
 defaultContentLanguage = "zh" # Default language to use (if you setup multilingual)

@@ -1,16 +1,17 @@
-logoText = "Zires" # Logo text that appears in the site navigation bar.
+logoText = "霜殒芦花泪湿衣，白头无复倚柴扉" # Logo text that appears in the site navigation bar.
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
 logo = true # Logo that appears in the site navigation bar.
 description = "ruby/golang/rust/vue/react" # for SEO
-custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
+custom_css = ["scss/custom.scss"] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 useFaviconGenerator = false # https://www.favicon-generator.org/
 languagedir = "ltr" # ltr / rtl
 
-themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
-notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
-notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
-notAllowedTypesInArchive = ["about", "talks", "showcase"] # not allowed page types in archive page
+# themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
+themeOptions = ["dark", "solarized"] # select options for site color theme
+notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "resume"] # not allowed page types in home page. type can be set in front matter or default to folder name.
+notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "resume"] # not allowed page types in home page sidebar(recent post titles).
+notAllowedTypesInArchive = ["about", "talks", "showcase", "resume"] # not allowed page types in archive page
 notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
 enablePinnedPosts = true # show pinned posts first in the main view
 
@@ -48,8 +49,8 @@ talksGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
 myname = "zshuaibin"
-email = "zshuaibin@gmail.com"
-whoami = "程序员 + 交易员"
+# email = "zshuaibin@gmail.com"
+whoami = "程序员/全栈/项目管理/技术管理"
 bioImageUrl = "https://nextcloud-1255384104.cos.ap-shanghai.myqcloud.com/avatar.png" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
 useGravatar = false # we use this option highest priority
 location = "Shanghai, China"
@@ -139,7 +140,7 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions] # if set, social icons will show up.
-  email = "mailto:zshuaibin@email.com"
+  email = ""
   phone = ""
   facebook = ""
   twitter = ""

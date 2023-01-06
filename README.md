@@ -1,0 +1,5 @@
+# Development
+
+```ruby
+hugo server
+```
